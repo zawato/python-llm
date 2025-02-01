@@ -1,0 +1,17 @@
+/* サイドバーのカスタマイズ */
+[data-testid="stSidebar"] {
+    min-width: 450px;
+    max-width: 450px;
+}
+
+/* ボタンのカスタマイズ */
+div.stButton > button:first-child {
+    background-color: #FF6347;  /* ボタンの背景色 (トマト色) */
+    color: white;              /* ボタンの文字色 */
+    font-size: 16px;           /* フォントサイズ */
+    border-radius: 10px;       /* 角を丸くする */
+    padding: 10px 20px;        /* 余白調整 */
+}
+div.stButton > button:first-child:hover {
+    background-color: #FF4500; /* ホバー時の色 (濃いオレンジ) */
+}
